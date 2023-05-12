@@ -1,0 +1,32 @@
+{
+    "drivers": [
+        {
+            "carNumber": 0,
+            "name": "Max Verstappen",
+            "constructor": "Red Bull",
+            "points": 454,
+            "wins": 0
+        },
+        {
+            "carNumber": 0,
+            "name": "Sergio Perez",
+            "constructor": "Red Bull",
+            "points": 305,
+            "wins": 2
+        },
+        {
+            "carNumber": 0,
+            "name": "Carlos Sainz Jr.",
+            "constructor": "Ferrari",
+            "points": 246,
+            "wins": 1
+        },
+        {
+            "carNumber": 0,
+            "name": "Charles Leclerc",
+            "constructor": "Ferrari",
+            "points": 308,
+            "wins": 3
+        }
+    ]
+}

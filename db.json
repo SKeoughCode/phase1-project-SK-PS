@@ -4,7 +4,7 @@
             "carNumber": 33,
             "name": "Max Verstappen",
             "constructor": "Red Bull",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.1920.medium.jpg/1677069646195.jpg",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbC-hRkeeX2Q520fG7kGsXvO-FyKUQqb4lEoMEmAU0w&usqp=CAU&ec=48665701",
             "points": 454,
             "wins": 0
         },
@@ -12,7 +12,7 @@
             "carNumber": 11,
             "name": "Sergio Perez",
             "constructor": "Red Bull",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1920.medium.jpg/1677069773437.jpg",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4472.png",
             "points": 305,
             "wins": 2
         },
@@ -20,7 +20,7 @@
             "carNumber": 55,
             "name": "Carlos Sainz Jr.",
             "constructor": "Ferrari",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sainz.jpg.img.1920.medium.jpg/1677069189406.jpg",
+            "image": "https://cdn.sportmonks.com/images/f1/drivers/carlossainz.png",
             "points": 246,
             "wins": 1
         },
@@ -28,7 +28,7 @@
             "carNumber": 16,
             "name": "Charles Leclerc",
             "constructor": "Ferrari",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/leclerc.jpg.img.1920.medium.jpg/1677069223130.jpg",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5498.png",
             "points": 308,
             "wins": 3
         },
@@ -36,7 +36,7 @@
             "carNumber": 63,
             "name": "George Russell",
             "constructor": "Mercedes",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/russell.jpg.img.1920.medium.jpg/1677069334466.jpg",
+            "image": "https://e2.365dm.com/f1/drivers/256x256/h_full_1496.png",
             "points": 275,
             "wins": 1
         },
@@ -44,7 +44,7 @@
             "carNumber": 44,
             "name": "Lewis Hamilton",
             "constructor": "Mercedes",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1920.medium.jpg/1677069594164.jpg",
+            "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/868.png",
             "points": 240,
             "wins": 3
         },
@@ -52,8 +52,16 @@
             "carNumber": 4,
             "name": "Lando Norris",
             "constructor": "McLaren",
-            "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/norris.jpg.img.1920.medium.jpg/1677069505471.jpg",
+            "image": "https://www.f1fantasytracker.com/Images/Drivers/Norris.png",
             "points": 122,
+            "wins": 0
+        },
+        {
+            "carNumber": 3,
+            "name": "Daniel Ricciardo",
+            "constructor": "McLaren",
+            "image": "https://e2.365dm.com/f1/drivers/256x256/h_full_1395.png",
+            "points": 37,
             "wins": 0
         },
         {
@@ -73,19 +81,19 @@
             "wins": 0
         },
         {
-            "carNumber": 3,
-            "name": "Daniel Ricciardo",
-            "constructor": "McLaren",
-            "image": "https://e2.365dm.com/f1/drivers/256x256/h_full_1395.png",
-            "points": 37,
-            "wins": 0
-        },
-        {
             "carNumber": 77,
             "name": "Valtteri Bottas",
             "constructor": "Alfa Romeo",
             "image": "https://www.f1fantasytracker.com/Images/Drivers/Bottas.png",
             "points": 49,
+            "wins": 0
+        },
+        {
+            "carNumber": 24,
+            "name": "Guanyu Zhou",
+            "constructor": "Alfa Romeo",
+            "image": "https://www.f1fantasytracker.com/Images/Drivers/Zhou.png",
+            "points": 6,
             "wins": 0
         },
         {
@@ -97,27 +105,19 @@
             "wins": 0
         },
         {
-            "carNumber": 20,
-            "name": "Kevin Magnussen",
-            "constructor": "Haas",
-            "image": "https://cdn.racingnews365.com/Riders/Magnussen/_570x570_crop_center-center_none/f1_2023_km_haa_lg.png?v=1677516326",
-            "points": 25,
-            "wins": 0
-        },
-        {
-            "carNumber": 10,
-            "name": "Pierre Gasly",
-            "constructor": "AlphaTauri",
-            "image": "https://www.f1fantasytracker.com/Images/Drivers/Gasly.png",
-            "points": 23,
-            "wins": 0
-        },
-        {
             "carNumber": 18,
             "name": "Lance Stroll",
             "constructor": "Aston Martin",
             "image": "https://www.f1fantasytracker.com/Images/Drivers/Stroll.png",
             "points": 18,
+            "wins": 0
+        },
+        {
+            "carNumber": 20,
+            "name": "Kevin Magnussen",
+            "constructor": "Haas",
+            "image": "https://cdn.racingnews365.com/Riders/Magnussen/_570x570_crop_center-center_none/f1_2023_km_haa_lg.png?v=1677516326",
+            "points": 25,
             "wins": 0
         },
         {
@@ -130,19 +130,19 @@
             "wins": 0
         },
         {
+            "carNumber": 10,
+            "name": "Pierre Gasly",
+            "constructor": "AlphaTauri",
+            "image": "https://www.f1fantasytracker.com/Images/Drivers/Gasly.png",
+            "points": 23,
+            "wins": 0
+        },
+        {
             "carNumber": 22,
             "name": "Yuki Tsunoda",
             "constructor": "AlphaTauri",
             "image": "https://www.f1fantasytracker.com/Images/Drivers/Tsunoda.png",
             "points": 12,
-            "wins": 0
-        },
-        {
-            "carNumber": 24,
-            "name": "Guanyu Zhou",
-            "constructor": "Alfa Romeo",
-            "image": "https://www.f1fantasytracker.com/Images/Drivers/Zhou.png",
-            "points": 6,
             "wins": 0
         },
         {

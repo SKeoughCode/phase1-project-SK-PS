@@ -15,7 +15,7 @@ body {
     padding: 0.5em;
 }
 
-#character-bar {
+/* #character-bar {
     height: 15vh;
     background: rgb(49, 109, 179);
     display: flex;
@@ -34,6 +34,23 @@ body {
     align-items: center;
     border-radius: 2em;
     border: 1px solid white;
+} */
+#character-bar {
+    display: flex;
+    overflow-x: auto;
+    margin: 1rem 0;
+    max-width: calc(100vw - 2rem);
+}
+
+#character-bar img {
+    flex: 0 1 auto;
+    height: 150px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+  
+#character-bar img:last-child {
+    margin-right: 0;  
 }
 
 .characterInfo {

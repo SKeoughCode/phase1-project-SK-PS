@@ -10,13 +10,27 @@
         <h1>Phase 1 F1 Project</h1>
     </div>
 
-    <div id="character-bar">
+    <div id="driver-bar">
 
     </div>
 
-    <div class="characterInfo">
+    <div class="driverInfo">
 
-    </div>
+        <div id="detailed-info">
+            <p id="name">Driver's Name</p>
+            <img id="image"
+                src="https://static.wikia.nocookie.net/topgear/images/d/d2/White_Stig.jpg/revision/latest/scale-to-width-down/900?cb=20190611114041"
+                alt="Driver's Name" />
+            <h4>Total Season Points: <span id="point-count">Driver's Votes</span></h4>
+            <form id="driver-form">
+                <input type="text" placeholder="Enter Driver Name" id="submittedDriverName"
+                    name="submittedDriverName" />
+                <input type="text" placeholder="Enter Driver Team" id="submittedDriverTeam"
+                    name="submittedDriverTeam" />
+                <input type="submit" value="Add Driver" />
+            </form>
+
+        </div>
 
     </div>
     <script src="src/index.js"></script>

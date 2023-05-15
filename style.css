@@ -10,12 +10,14 @@ body {
 
 .logo {
     text-align: center;
-    background-color: rgb(49, 109, 179);
+    background-color: rgb(182, 12, 12);
     color: white;
     padding: 0.5em;
 }
 
+
 #driver-bar {
+
     height: 15vh;
     background: rgb(49, 109, 179);
     display: flex;
@@ -37,6 +39,7 @@ body {
     border-radius: 2em;
     border: 1px solid white;
 }
+
 
 .driverInfo {
     height: 550px;

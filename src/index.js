@@ -7,11 +7,12 @@ const init = () => {
     fetch(driversURL)
         .then((resp) => resp.json())
         .then((drivers) => {
-            drivers.forEach((driver) => {
+
+                drivers.forEach((driver) => {
                 renderDriver(driver);
             })
         })
-}
+ }
 
 function renderDriver(driver) {
 
@@ -34,7 +35,21 @@ function renderDriver(driver) {
 
     })
 
+
+//             drivers.forEach(driver => renderDrivers(driver))
+        })
+
 }
 
 
 document.addEventListener("DOMContentLoaded", init);
+
+
+//Add the Driver Images to the character-bar
+
+// function renderDrivers(driver) {
+//     const driverImg = document.createElement('img')
+//     driverImg.src = driver.image
+
+//     document.querySelector('#character-bar').appendChild(driverImg)
+// }

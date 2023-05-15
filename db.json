@@ -123,7 +123,8 @@
         {
             "carNumber": 47,
             "name": "Mick Schumacher",
-            "constructor": "Mercedes",
+
+            "constructor": "Haas",
             "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5654.png",
             "points": 12,
             "wins": 0

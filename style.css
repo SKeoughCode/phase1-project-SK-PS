@@ -15,48 +15,35 @@ body {
     padding: 0.5em;
 }
 
-/* #character-bar {
+
+#driver-bar {
+
     height: 15vh;
     background: rgb(49, 109, 179);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 3vh;
+    overflow-x: auto;
 }
 
-#character-bar span {
+#driver-bar img {
     padding: 1%;
-    height: 80%;
-    width: 8vw;
+    height: 60%;
+    width: 7vw;
     display: flex;
     justify-content: center;
-    font-size: 3vh;
+    font-size: 1vh;
+    color: white;
     align-items: center;
     border-radius: 2em;
     border: 1px solid white;
-} */
-
-#character-bar {
-    display: flex;
-    overflow-x: auto;
-    margin: 1rem 0;
-    max-width: calc(100vw - 2rem);
 }
 
-#character-bar img {
-    flex: 0 1 auto;
-    height: 150px;
-    margin-right: 0.5rem;
-    cursor: pointer;
-}
-  
-#character-bar img:last-child {
-    margin-right: 0;  
-}
 
-.characterInfo {
+.driverInfo {
     height: 550px;
-    padding: 30px;
+    padding: 10px;
     font-size: 24px;
     border: dotted;
     text-align: center;

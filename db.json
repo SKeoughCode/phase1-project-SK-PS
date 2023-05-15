@@ -81,22 +81,6 @@
             "wins": 0
         },
         {
-            "carNumber": 77,
-            "name": "Valtteri Bottas",
-            "constructor": "Alfa Romeo",
-            "image": "https://www.f1fantasytracker.com/Images/Drivers/Bottas.png",
-            "points": 49,
-            "wins": 0
-        },
-        {
-            "carNumber": 24,
-            "name": "Guanyu Zhou",
-            "constructor": "Alfa Romeo",
-            "image": "https://www.f1fantasytracker.com/Images/Drivers/Zhou.png",
-            "points": 6,
-            "wins": 0
-        },
-        {
             "carNumber": 5,
             "name": "Sebastian Vettel",
             "constructor": "Aston Martin",
@@ -145,6 +129,7 @@
             "points": 12,
             "wins": 0
         },
+
         {
             "carNumber": 23,
             "name": "Alexander Albon",

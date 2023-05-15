@@ -10,7 +10,7 @@ body {
 
 .logo {
     text-align: center;
-    background-color: rgb(49, 109, 179);
+    background-color: rgb(182, 12, 12);
     color: white;
     padding: 0.5em;
 }
@@ -35,6 +35,7 @@ body {
     border-radius: 2em;
     border: 1px solid white;
 } */
+
 #character-bar {
     display: flex;
     overflow-x: auto;

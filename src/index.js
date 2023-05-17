@@ -2,54 +2,47 @@
 
 const init = () => {
 
-    const driversURL = "http://localhost:3000/drivers";
+    const f1TeamsURL = "http://localhost:3000/f1Teams";
 
-    fetch(driversURL)
+    fetch(f1TeamsURL)
         .then((resp) => resp.json())
-        .then((drivers) => {
+        .then((f1Teams) => {
 
-                drivers.forEach((driver) => {
-                renderDriver(driver);
+                f1Teams.forEach((team) => {
+                renderDriver(team);
             })
         })
  }
 
-function renderDriver(driver) {
+function renderDriver(team) {
 
-    const driverBar = document.querySelector('#driver-bar');
+    const constructorBar = document.querySelector('#constructor-bar');
 
-    let newDriverImage = document.createElement('img');
-    newDriverImage.src = driver.image;
+    let constructorImage = document.createElement('img');
+    constructorImage.src = team.constructorImage;
+    constructorBar.appendChild(constructorImage);
 
-    driverBar.appendChild(newDriverImage);
-    newDriverImage.addEventListener('click', () => {
-        const detailedName = document.querySelector('#name');
-        detailedName.textContent = driver.name;
+    constructorImage.addEventListener('click', () => {
+        const detailedName1 = document.querySelector('#name1');
+        detailedName1.textContent = team.driver1;
 
-        const detailedImage = document.querySelector('#image');
-        detailedImage.src = driver.image;
+        const detailedImage1 = document.querySelector('#image1');
+        detailedImage1.src = team["driver1-image"];
 
-        const pointCount = document.querySelector('#point-count');
-        pointCount.textContent = `${driver.points}`;
+        const pointCount1 = document.querySelector('#point-count1');
+        pointCount1.textContent = `${team["driver1-points"]}`;
 
+        const detailedName2 = document.querySelector('#name2');
+        detailedName2.textContent = team.driver2;
+
+        const detailedImage2 = document.querySelector('#image2');
+        detailedImage2.src = team["driver2-image"];
+
+        const pointCount2 = document.querySelector('#point-count2');
+        pointCount2.textContent = `${team["driver2-points"]}`;
 
     })
-
-
-//             drivers.forEach(driver => renderDrivers(driver))
-        })
-
 }
 
 
 document.addEventListener("DOMContentLoaded", init);
-
-
-//Add the Driver Images to the character-bar
-
-// function renderDrivers(driver) {
-//     const driverImg = document.createElement('img')
-//     driverImg.src = driver.image
-
-//     document.querySelector('#character-bar').appendChild(driverImg)
-// }

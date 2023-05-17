@@ -3,6 +3,7 @@
         {
             "constructor": "RedBull",
             "constructorImage": "https://p.kindpng.com/picc/s/172-1721994_red-bull-logo-png-logo-de-red-bull.png",
+            "constructorCarImage": "https://rare-gallery.com/mocahbig/1340042-Race-Car-Red-Bull-Racing-F1-2022Red-Bull-Racing-2022.jpg",
             "driver1": "Max Verstappen",
             "driver1-carNumber": 33,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-nh5i916ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=1b4050dc3203c3aef7fb0c6e522476effa9ccd41",
@@ -17,6 +18,7 @@
         {
             "constructor": "Ferrari",
             "constructorImage": "https://ali-practice-aws-bucket.s3.amazonaws.com/ferarri.png",
+            "constructorCarImage": "https://e1.365dm.com/22/02/2048x1152/skysports-ferrari-f1-2022-car_5676775.jpg",
             "driver1": "Carlos Sainz Jr.",
             "driver1-carNumber": 55,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-xpzpxe6ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=eb374f2d3375c3b1eb43f4ebf53e91842cbfcb92",
@@ -31,6 +33,7 @@
         {
             "constructor": "Mercedes",
             "constructorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/2048px-Mercedes-Logo.svg.png",
+            "constructorCarImage": "https://p.turbosquid.com/ts-thumb/ap/C9ukV2/pY/a_w13_0000a_1200a/jpg/1650236846/1920x1080/fit_q87/f626bc05e24a2ea6b51c93eaeb757fbeac447d2e/a_w13_0000a_1200a.jpg",
             "driver1": "Lewis Hamilton",
             "driver1-carNumber": 44,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-3c4ne17ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=f2a442482737e06ae83f09d8222d5457b7e9a530",
@@ -45,6 +48,7 @@
         {
             "constructor": "McLaren",
             "constructorImage": "data:image/png;base64,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",
+            "constructorCarImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/McLaren_F1_Google_UapTrAY.jpeg",
             "driver1": "Lando Norris",
             "driver1-carNumber": 4,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-6iiv5h6ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=2ab1fe5fc61c05548fba6076cd3e3a1095a2b50e",
@@ -59,6 +63,7 @@
         {
             "constructor": "Alpine",
             "constructorImage": "https://upload.wikimedia.org/wikipedia/commons/3/32/Alpine_logo.png",
+            "constructorCarImage": "https://www.renaultgroup.com/wp-content/uploads/2023/04/alpine-1.jpg",
             "driver1": "Esteban Ocon",
             "driver1-carNumber": 31,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-mnqp4d6ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=ffceb8031e889233f45cc8f3b0bc286b7f02aa9c",
@@ -73,6 +78,7 @@
         {
             "constructor": "Aston Martin",
             "constructorImage": "https://cdn.carbuzz.com/gallery-images/840x560/818000/300/818335.jpg",
+            "constructorCarImage": "https://e2.365dm.com/22/02/2048x1152/skysports-aston-martin-2022_5669194.jpg",
             "driver1": "Sebastian Vettel",
             "driver1-carNumber": 5,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-qgu7i26ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=d58858675ecada22d58d2804edf1d15d28e7c968",
@@ -87,6 +93,7 @@
         {
             "constructor": "Haas",
             "constructorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_Haas_F1.png/800px-Logo_Haas_F1.png",
+            "constructorCarImage": "https://rare-gallery.com/mocahbig/1340082-Race-Car-F1-2022-Haas-F1-TeamHaas-F1-Team-2022-Formula.jpg",
             "driver1": "Kevin Magnussen",
             "driver1-carNumber": 20,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-sblwou6ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=af51ca17c876cd18a8556a303f9bb51b176d14f1",
@@ -101,6 +108,7 @@
         {
             "constructor": "AlphaTauri",
             "constructorImage": "https://liquipedia.net/commons/images/thumb/b/ba/AlphaTauri_darkmode.png/600px-AlphaTauri_darkmode.png",
+            "constructorCarImage": "https://e1.365dm.com/22/02/2048x1152/skysports-alphatauri-f1-car_5673371.jpg",
             "driver1": "Pierre Gasly",
             "driver1-carNumber": 10,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-bd3yif6ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=554457a7b85aeec4701b9412ff3d5f1592947933",
@@ -115,6 +123,7 @@
         {
             "constructor": "Williams",
             "constructorImage": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png",
+            "constructorCarImage": "https://www.racefans.net/wp-content/uploads/2022/02/racefansdotnet-21-02-15-13-23-20-1.jpg",
             "driver1": "Alexander Albon",
             "driver1-carNumber": 23,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-h37w206ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=c92ee6c4618c6fcc69cc5d3e3f0df045859cf2f0",
@@ -129,6 +138,7 @@
         {
             "constructor": "Alfa Romeo",
             "constructorImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Alfa_Romeo_logo.png/190px-Alfa_Romeo_logo.png",
+            "constructorCarImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbHNc0kE4moU1HemXKXFojwuMC9RnSD3P4hQ&usqp=CAU",
             "driver1": "Zhou Guanyu",
             "driver1-carNumber": 24,
             "driver1-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-q1vy0a6ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=9dd8f996884bffcb7fe9a8678b4742adbab2802a",
@@ -139,8 +149,6 @@
             "driver2-image": "https://preview.redd.it/all-the-new-driver-portraits-for-2022-v0-uoxn997ilpn81.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=87abd951c3bc90cdec97a8a4f49e88cedd16b762",
             "driver2-points": 49,
             "driver2-wins": 0
-        }  
-
+        }
     ]
-        
 }

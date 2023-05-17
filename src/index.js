@@ -8,11 +8,11 @@ const init = () => {
         .then((resp) => resp.json())
         .then((f1Teams) => {
 
-                f1Teams.forEach((team) => {
+            f1Teams.forEach((team) => {
                 renderDriver(team);
             })
         })
- }
+}
 
 function renderDriver(team) {
 
@@ -21,6 +21,15 @@ function renderDriver(team) {
     let constructorImage = document.createElement('img');
     constructorImage.src = team.constructorImage;
     constructorBar.appendChild(constructorImage);
+
+    constructorImage.addEventListener('mouseover', () => {
+        constructorImage.src = team.constructorCarImage;
+        // console.log(team.constructor);
+    })
+
+    constructorImage.addEventListener('mouseout', () => {
+        constructorImage.src = team.constructorImage;
+    })
 
     constructorImage.addEventListener('click', () => {
         const detailedName1 = document.querySelector('#name1');

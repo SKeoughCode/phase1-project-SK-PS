@@ -54,4 +54,39 @@ function renderDriver(team) {
 }
 
 
+document.querySelector("#driver-form1").addEventListener('submit', (event) => {
+    handleSubmit1(event);
+})
+
+document.querySelector("#driver-form2").addEventListener('submit', (event) => {
+    handleSubmit2(event)
+})
+
+
+function handleSubmit1(event) {
+    event.preventDefault()
+
+    let temp1 = parseInt(event.target.submittedDriverPoints1.value);
+    let temp2 = parseInt(document.querySelector("#point-count1").textContent);
+    temp1 += temp2;
+
+    document.querySelector("#point-count1").textContent = temp1;
+
+    event.target.reset();
+
+}
+
+function handleSubmit2(event) {
+    event.preventDefault();
+    let temp1 = parseInt(event.target.submittedDriverPoints2.value);
+    let temp2 = parseInt(document.querySelector("#point-count2").textContent);
+    temp1 += temp2;
+
+    document.querySelector("#point-count2").textContent = temp1;
+
+    event.target.reset();
+
+}
+
+
 document.addEventListener("DOMContentLoaded", init);
